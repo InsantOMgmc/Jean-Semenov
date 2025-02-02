@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+</head>
+
+<body>
+    @@include('../components/header.html')
+    <main>
+        @@include('../components/hero.html')
+        @@include('../components/area-work.html')
+        @@include('../components/services.html')
+        @@include('../components/pricing.html')
+    </main>
+    @@include('../components/footer.html')
+
+    <div class="modal-window-wrapper civil-modal-wrapper">
+        <div class="modal-window">
+            <div class="modal-window-close-btn">
+                <svg width="25" height="25" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 5L5 15" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M5 5L15 15" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </div>
+            <div class="pricing__item pricing-item">
+                <h3 class="modal-title pricing-item__title">Юридические услуги для граждан</h3>
+                <p class="pricing-item__text modal-text">
+                    Квалифицированная помощь для решения ваших вопросов
+                </p>
+                <p class="default-text">
+                    Мы оказываем профессиональную юридическую помощь гражданам в Армении, основываясь на нормах
+                    российского права. Наша команда помогает решить широкий круг вопросов, от консультаций до судебного
+                    представительства.
+                </p>
+                <div class="pricing-item__list pricing-item__benefits">
+                    <h4 class="pricing-item__list-title">Мы предлагаем:</h4>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text"> <b>Консультации по российскому праву</b>: Подробные
+                            разъяснения и помощь в понимании ваших прав и обязанностей.
+                        </span>
+                    </div>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text"><b>Судебное представительство</b>: Защита ваших интересов
+                            в судебных инстанциях</span>
+                    </div>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text"><b>Составление и проверка документов</b>: Поможем
+                            составить договоры, заявления, жалобы и другие документы с учетом норм российского
+                            законодательства.</span>
+                    </div>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text"><b>Помощь в решении семейных споров</b>: Бракоразводные
+                            процессы, вопросы опеки и раздела имущества</span>
+                    </div>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text"><b>Иммиграционные и миграционные вопросы</b>: Юридическое
+                            сопровождение при оформлении документов и получении статуса.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="pricing-item__list pricing-item__includes">
+                    <h4 class="pricing-item__list-title">Почему выбирают нас?</h4>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text">Глубокое знание российского законодательства.
+                        </span>
+                    </div>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text">Индивидуальный подход к каждому клиенту.
+                        </span>
+                    </div>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text">Полная конфиденциальность и поддержка на всех
+                            этапах.</span>
+                    </div>
+                </div>
+                <div class="pricing__btn-container">
+                    <div class="primary-btn">Подать заявку</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal-window-wrapper buisness-modal-wrapper">
+        <div class="modal-window">
+            <div class="modal-window-close-btn">
+                <svg width="25" height="25" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 5L5 15" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M5 5L15 15" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </div>
+            <div class="pricing__item pricing-item">
+                <h3 class="modal-title pricing-item__title">Юридические услуги для бизнеса</h3>
+                <p class="pricing-item__text modal-text">
+                    Комплексная поддержка вашего бизнеса в Армении
+                </p>
+                <p class="default-text">
+                    Мы помогаем компаниям и предпринимателям эффективно вести бизнес, соблюдая нормы российского права
+                </p>
+                <div class="pricing-item__list pricing-item__benefits">
+                    <h4 class="pricing-item__list-title">Мы предлагаем:</h4>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text"> <b>Регистрация и ликвидация компаний</b>: Полное
+                            сопровождение процесса создания или закрытия бизнеса.
+
+                        </span>
+                    </div>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text"><b>Договорная работа</b>: Разработка, проверка и
+                            согласование договоров, в том числе международных.
+                        </span>
+                    </div>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text"><b>Разрешение споров:</b> Представительство в судах и
+                            арбитражах.</span>
+                    </div>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text"><b>Налоговое планирование</b>: Оптимизация налоговой
+                            нагрузки с учетом российского и армянского законодательства.
+                        </span>
+                    </div>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text"><b>Правовая поддержка сделок:</b> Юридическая проверка и
+                            сопровождение сделок любой сложности.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="pricing-item__list pricing-item__includes">
+                    <h4 class="pricing-item__list-title">Почему выбирают нас?</h4>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text">Мы понимаем особенности ведения бизнеса в Армении.
+
+                        </span>
+                    </div>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text">Обеспечиваем юридическую безопасность и минимизацию
+                            рисков.
+                        </span>
+                    </div>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text">Оказываем услуги на русском языке для вашего
+                            удобства.</span>
+                    </div>
+                </div>
+                <div class="pricing__btn-container">
+                    <div class="primary-btn">Подать заявку</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal-window-wrapper subscription-modal-wrapper">
+        <div class="modal-window">
+            <div class="modal-window-close-btn">
+                <svg width="25" height="25" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 5L5 15" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M5 5L15 15" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </div>
+            <div class="pricing__item pricing-item">
+                <h3 class="modal-title pricing-item__title">Абонентское юридическое обслуживание</h3>
+                <p class="pricing-item__text modal-text">
+                    Юридическая поддержка на постоянной основе
+                </p>
+                <p class="default-text">
+                    Абонентское обслуживание — это идеальное решение для граждан и бизнеса, которым требуется регулярная
+                    юридическая помощь. Мы предоставляем полный спектр услуг по фиксированной стоимости.
+                </p>
+                <div class="pricing-item__list pricing-item__benefits">
+                    <h4 class="pricing-item__list-title">В рамках абонентского обслуживания вы получаете:</h4>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text">Постоянные консультации по российскому и армянскому
+                            законодательству.
+
+                        </span>
+                    </div>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text">Подготовку и проверку юридических документов.
+                        </span>
+                    </div>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text">Правовую поддержку при взаимодействии с государственными
+                            органами.
+                        </span>
+                    </div>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text">Защиту ваших интересов в судебных и внесудебных
+                            разбирательствах</span>
+                    </div>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text">Мониторинг изменений в законодательстве, которые могут
+                            повлиять на вашу деятельность.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="pricing-item__list pricing-item__includes">
+                    <h4 class="pricing-item__list-title">Преимущества абонентского обслуживания:</h4>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text">Прогнозируемые затраты на юридические услуги.
+                        </span>
+                    </div>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text">Оперативное решение правовых вопросов.
+                        </span>
+                    </div>
+                    <div class="pricing-list__item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.561 7.44385L12.005 14.9998L8.22803 11.2218" stroke="#BA8E55" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M21 12C21 16.971 16.971 21 12 21C7.029 21 3 16.971 3 12C3 7.029 7.029 3 12 3C13.453 3 14.821 3.353 16.036 3.964"
+                                stroke="#BA8E55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="pricing-list__item-text">Экономия времени и ресурсов.
+                            этапах.</span>
+                    </div>
+                </div>
+                <div class="pricing__btn-container">
+                    <div class="primary-btn">Подать заявку</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="../js/main.min.js"></script>
+</body>
+
+</html>

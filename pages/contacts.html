@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        @@include('../components/main-header.html')
+        <main class="main">
+            <div class="container">
+                <div class="hidden-element"></div>
+                <div class="page-header-block primary-wrapper">
+                    <div class="page-navigation">
+                        <a class="default-text" href="index.html">Главная</a>
+                        <span>/</span>
+                        <a class="default-text" href="contacts.html">Контакты</a>
+                    </div>
+
+                    <h1 class="page-header-title">
+                        Контакты
+                    </h1>
+                    <p class="page-header-suptitle">
+                        Наша невероятно дружелюбная и преданная команда всегда рада выслушать вас и помочь с любыми
+                        вопросами, которые могут у вас возникнуть
+                    </p>
+                </div>
+            </div>
+
+            <section class="head-office primary-section">
+                <div class="container">
+                    <span class="section-name">
+                        Главный офис
+                    </span>
+                    <div class="head-office__wrapper primary-wrapper">
+                        <h2 class="section-title head-office__title">Ереван, ул. Киевяна, 16</h2>
+
+                        <img class="head-office__map" src="../img/contacts/map.jpg" alt="map">
+                    </div>
+                </div>
+            </section>
+            <section class="contact-phone primary-section">
+                <div class="container">
+                    <span class="section-name">
+                        Телефон
+                    </span>
+                    <div class="contact-phone__wrapper primary-wrapper">
+                        <h2 class="section-title contact-phone__title">+374 77 11 62 33</h2>
+                        <p class="section-suptitle section-suptitle--gray">Mon-Fri 09:00—18:00 UTC-5</p>
+                    </div>
+                </div>
+            </section>
+            <section class="head-office primary-section">
+                <div class="container">
+                    <span class="section-name">
+                        Почта
+                    </span>
+                    <div class="head-office__wrapper primary-wrapper">
+                        <h2 class="section-title head-office__title">jsemenov@proton.me</h2>
+                        <p class="section-suptitle section-suptitle--gray">Наша дружная команда готова помочь</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        @@include('../components/footer.html')
+    </div>
+    <script src="../js/main.min.js"></script>
+</body>
+
+</html>
